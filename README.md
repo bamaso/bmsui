@@ -1,7 +1,7 @@
-# BMS-UI
+﻿# BMS-UI
 
 > 可爱风的VUE2.0UI框架
-[DEMO](https://bamaso.github.io/bmsui/)
+[demo](https://bamaso.github.io/bmsui/)
 
 ## 安装方法
 

@@ -57,7 +57,6 @@ Vue.component('bms-code', bmsCode)
 Vue.component('bms-api', bmsApi)
 Vue.component('bms-emit', bmsEmit)
 let router = new VueRouter({
-  mode: 'history',
   routes
 })
 /* eslint-disable no-new */

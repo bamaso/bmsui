@@ -1,0 +1,42 @@
+.bms-toast .bms-toast-show{
+  z-index:20;
+  position:fixed;
+  top:150px;
+  left:50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  background-color:#fff;
+  text-align:center;
+  border-radius:5px;
+  font-size:14px;
+  padding:10px;
+}
+.bms-toast .bms-toast-show .icon-block{
+  width:70px;
+  height:70px;
+  margin:0 auto 10px;
+  border-radius:50%;
+  background-color: #f4f4f4;
+  box-shadow:inset 0 2px 3px #41a777;
+  text-align: center;
+}
+.bms-toast .bms-toast-show .icon-block.block-danger{
+  box-shadow: inset 0 2px 3px #8a1b21;
+}
+.bms-toast .bms-toast-show i.ui-font{
+  font-size:35px;
+  position:relative;
+  top:15px;
+  line-height: 36px;
+}
+.bms-toast .bms-toast-show i.ui-font.icon-success{
+  color:#60c897;
+}
+.bms-toast .bms-toast-show i.ui-font.icon-warning{
+  color:#e36b77;
+}
+.bms-toast .bms-toast-show .bms-toast-content{
+  line-height: 20px;
+  font-size: 14px;
+  text-align: center;
+}

@@ -1,0 +1,22 @@
+.textarea_cell{
+  position: relative;
+  width: 100%;
+  border:1px solid #dfdfdf;
+  background-color:#fff;
+}
+.textarea_counter{
+  color:#e36b77;
+  height:20px;
+  line-height: 15px;
+  padding-bottom: 5px;
+  text-align: right;
+  padding-right: 10px;
+}
+.textarea_cell textarea{
+  resize: none;
+  width:100%;
+  box-sizing: border-box;
+  border:none;
+  padding:5px;
+  font-size:14px;
+}

@@ -1,0 +1,31 @@
+a.bms-msg{
+  position:fixed;
+  z-index:5000;
+  bottom:20%;
+  left:50%;
+  transform: translateX(-50%);
+  -webkit-transform: -webkit-translateX(-50%);
+  -moz-transform: -moz-translateX(-50%);
+  -o-transform: -o-translateX(-50%);
+  box-sizing:border-box;
+  width:87%;
+  height:40px;
+  line-height: 40px;
+  padding:0 45px 0 30px;
+  background-color:rgba(0,0,0,0.7);
+  border-radius:5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  color:#fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+a.bms-msg:link,a.bms-msg:visited{
+  color:#fff;
+}
+a.bms-msg i.ui-font{
+  position: absolute;
+  right:20px;
+}

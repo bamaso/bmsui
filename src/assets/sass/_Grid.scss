@@ -1,0 +1,45 @@
+.row{
+  overflow:hidden;
+}
+.bms-col-1,.bms-col-2,.bms-col-3,.bms-col-4,.bms-col-5,.bms-col-6,.bms-col-7,.bms-col-8,.bms-col-9,.bms-col-10,.bms-col-11,.bms-col-12{
+  float:left;
+  padding:0 5px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+.bms-col-1{
+  width:8.3333%;
+}
+.bms-col-2{
+  width:16.6666%;
+}
+.bms-col-3{
+  width:25%;
+}
+.bms-col-4{
+  width:33.3333%;
+}
+.bms-col-5{
+  width:41.6666%;
+}
+.bms-col-6{
+  width:50%;
+}
+.bms-col-7{
+  width:58.3333%;
+}
+.bms-col-8{
+  width:66.6666%;
+}
+.bms-col-9{
+  width:75%;
+}
+.bms-col-10{
+  width:83.3333%;
+}
+.bms-col-11{
+  width:91.6666%;
+}
+.bms-col-12{
+  width:100%;
+}

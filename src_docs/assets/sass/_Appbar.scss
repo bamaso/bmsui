@@ -1,0 +1,32 @@
+.model{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.7);
+  z-index:1001;
+}
+.bmsui-appbar{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:50px;
+  line-height: 50px;
+  background-color: #03ccbb;
+  color:#fff;
+  font-size: 1.5em;
+  padding:0 10px;
+  z-index:1000;
+}
+.bmsui-appbar .logo{
+  float:right;
+  width:30px;
+  height: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.nav-show{
+  margin-left:290px;
+}

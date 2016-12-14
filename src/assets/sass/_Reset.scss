@@ -1,0 +1,28 @@
+html{
+  height: 100%;
+}
+section,body,div,p,ul,li{
+  box-sizing:border-box;
+}
+body{
+  max-width: 720px;
+  margin:0 auto;
+  height:100%;
+}
+div,
+form,
+img,
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style-type: none;
+}
+input {
+  outline: none;
+}

@@ -1,0 +1,19 @@
+.bms-tab {
+  display: flex;
+  background-color: #fff;
+}
+.bms-tab .bms-tab-item {
+  display: block;
+  flex: 1;
+  height: 44px;
+  line-height: 44px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #e5e5e5, #e5e5e5, rgba(229, 229, 229, 0)) bottom left no-repeat;
+  background-size: 100% 1px;
+  font-size: 14px;
+  text-align: center;
+}
+.bms-tab .bms-tab-item.bms-tab-selected {
+  color: #04be02;
+  border-bottom: 3px solid #04be02;
+}

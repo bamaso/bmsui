@@ -1,0 +1,134 @@
+.btn-bms{
+  display:inline-block; 
+  padding:6px 15px 4px 15px;
+  border-radius:5px;
+  color:#fff; 
+  box-sizing:border-box;
+  text-align: center;
+  font-size: 16px;
+  outline: none;
+}
+.btn-bms.small {
+  padding: 4px 15px 3px 15px;
+  font-size: 14px;
+}
+.btn-bms.large {
+  padding: 11px 20px 9px 20px;
+  font-size: 18px;
+}
+.btn-bms.no-shadow{
+  box-shadow:none !important;
+}
+.btn-bms.no-radius{
+  border-radius:0 !important;
+}
+.btn-bms.large.btn-block {
+  height:100%;
+  line-height: 100%;
+}
+.btn-default{
+  background-color:#fff;
+  border:1px solid $gray-border-color;
+  color:$text-color;
+}
+.btn-primary{
+  background-color:$bg-color-sky;
+  border:1px solid $bg-color-sky;
+}
+.btn-warning{
+  background-color:$bg-color-sun;
+  border:1px solid $bg-color-sun;
+}
+.btn-success{
+  background-color:$bg-color-grass;
+  border:1px solid $bg-color-grass;
+}
+.btn-danger{
+  background-color:$bg-color-red;
+  border:1px solid $bg-color-red;
+}
+.btn-block{
+  display:block;
+  width:100%;
+}
+.btn-primary{
+  box-shadow: 0 2px 1px $shadow-color-sky;
+}
+.btn-warning{
+  box-shadow: 0 2px 1px $shadow-color-sun;
+}
+.btn-success{
+  box-shadow: 0 2px 1px $shadow-color-grass;
+}
+.btn-danger{
+  box-shadow: 0 2px 1px $shadow-color-red;
+}
+/**btn hover样式**/
+.btn-default:hover,.btn-default:visited,.btn-default:link{
+    background-color: #eeedeb;
+}
+.btn-primary:hover,.btn-primary:visited,.btn-primary:link{
+    background-color: $hover-bg-color-sky;
+}
+.btn-warning:hover,.btn-warning:visited,.btn-warning:link{
+    background-color: $hover-bg-color-sun;
+}
+.btn-success:hover,.btn-success:visited,.btn-success:link{
+    background-color: $hover-bg-color-grass; 
+}
+.btn-danger:hover,.btn-danger:visited,.btn-danger:link{
+    background-color: $hover-bg-color-red;
+}
+/**btn按下样式**/
+.btn-default:active{
+  background-color:#e3e3e3;
+  border-color:transparent;
+  box-shadow:inset 1px 2px 3px #c6c6c6;
+}
+.btn-primary:active{
+  background-color:darken($bg-color-sky,18%);
+  border-color:transparent;
+  box-shadow:inset 1px 2px 3px $active-bg-color-sky;
+}
+.btn-warning:active{
+  background-color:darken($bg-color-sun,15%);
+  border-color:transparent;
+  box-shadow:inset 1px 2px 3px $active-bg-color-sun;
+}
+.btn-success:active{
+  background-color:darken($bg-color-grass,15%);
+  border-color:transparent;
+  box-shadow:inset 1px 2px 3px $active-bg-color-grass;
+}
+.btn-danger:active{
+  background-color:darken($bg-color-red,10%);
+  border-color:transparent;
+  box-shadow:inset 1px 2px 3px $active-bg-color-red;
+}
+/**btn disabled样式**/
+.btn-bms:disabled{
+  color:#cecece;
+  background-color:#f8f8f8;
+  box-shadow:none;
+  border:none;
+}
+.btn-default:disabled{
+  @extend .btn-bms:disabled;
+  border:1px solid #cecece;
+}
+.btn-primary:disabled{
+  @extend .btn-bms:disabled;
+  background-color:rgba($bg-color-sky,.5);
+}
+.btn-warning:disabled{
+  @extend .btn-bms:disabled;
+  background-color:rgba($bg-color-sun,.5);
+}
+.btn-success:disabled{
+  @extend .btn-bms:disabled;
+  background-color:rgba($bg-color-grass,.5);
+}
+.btn-danger:disabled{
+  @extend .btn-bms:disabled;
+  background-color:rgba($bg-color-red,.5);
+}

@@ -1,0 +1,10 @@
+{
+  "multi_entry": [
+    "Tab"
+  ],
+  "ignore": [
+    "style",
+    "test",
+    "demo"
+  ]
+}

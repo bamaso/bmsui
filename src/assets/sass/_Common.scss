@@ -1,0 +1,147 @@
+
+      /**公共mask的样式**/
+      .bms-mask-transparent,.bms-mask{
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        bottom: 0;
+        z-index:10;
+      }
+      .bms-mask{
+        background-color: rgba(0,0,0,0.5);
+      }
+      /***公共样式之渐变样式**/
+      .bms-fade-leave-active,.bms-fade-enter-active{
+        transition: opacity .1s linear;
+        -webkit-transition: opacity .1s linear;
+      }
+      .bms-fade-enter{
+        opacity:0;
+      }
+      .bms-fade-leave-active{
+        opacity: 0;
+      }
+
+      .bms-dialog-leave-active,.bms-dialog-enter-active{
+        transition-duration: .1s;
+        -webkit-transition-duration: .1s;
+        transition-property:transform,opacity!important;
+        -webkit-transition-property:-webkit-transform,opacity!important;
+      }
+      .bms-dialog-enter{
+        transform: translate(-50%,-50%) scale(0.70)!important;
+        -webkit-transform: translate(-50%,-50%) scale(0.70)!important;
+        opacity:0;
+      }
+      .bms-dialog-enter-active,.bms-dialog-leave{
+        opacity: 1;
+      }
+      .bms-dialog-leave-active{
+        opacity: 0;
+      }
+
+      .bms-popup-enter-active,.bms-popup-leave-active{
+        transition: transform .15s linear;
+        -webkit-transition: -webkit-transform .15s linear;    
+      }
+      .bms-popup-enter-active{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+      }
+      .bms-popup-enter{
+         -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+      }
+      .bms-popup-leave{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+      }
+      .bms-popup-leave-active{
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);  
+      }
+/*渐显显示，缩小消失
+      .bms-msg-leave-active{
+        transition: transform .1s linear;
+        -webkit-transition: -webkit-transform .1s linear;
+        transform: translateX(-50%) scale(0.1)!important;
+        -webkit-transform: translateX(-50%) scale(0.1)!important;
+      }
+      .bms-msg-leave{
+        transform: translateX(-50%) scale(1)!important;
+        -webkit-transform: translateX(-50%) scale(1)!important;
+      }
+      .bms-msg-enter-active{
+        opacity: 1;
+        transition: opacity .2s linear;
+        -webkit-transition: opacity .2s linear;
+      }
+      .bms-msg-enter{
+        opacity:0;
+      }*/
+      .bms-msg-leave-active{
+        transition: opacity 1s linear;
+        -webkit-transition: opacity 1s linear;
+      }
+      .bms-msg-enter-active{
+        transition: opacity .1s linear;
+        -webkit-transition: opacity .1s linear;
+      }
+      .bms-msg-enter{
+        opacity:0;
+      }
+      .bms-msg-leave-active{
+        opacity: 0;
+      }
+      /**alert与confirm的公共样式***/
+      .bms-dialog-main{
+        padding: 20px;
+        position:relative;
+      }
+      .bms_dialog_hd>.icon{
+        width:70px;
+        height:70px;
+        margin:0 auto;
+        border-radius:50%;
+        text-align: center;
+      }
+      .danger .icon{
+        background-color: #e36b77;
+        box-shadow:inset 0 2px 3px #a0252e;
+      }
+      .success .icon{
+        background-color: #60c897;
+        box-shadow:inset 0 2px 3px #2f8f62;
+      }
+      .bms_dialog_hd>.icon .ui-font{
+        color:#fff;
+        font-size:35px;
+        line-height:70px;
+      }
+      .bms_dialog_title{
+        height:40px;
+        line-height: 40px;
+        font-size: 16px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .bms_dialog_bd{
+        padding:0 16px;
+        font-size: 15px;
+        color: #888;
+        word-wrap: break-word;
+        word-break: break-all;
+      }
+      .bms_dialog_ft{
+        height:30px;
+        width: 100%;
+        padding:0 10px;
+        display:flex;
+      }
+      .bms_dialog_ft [class*='btn']{
+        font-size: 24px;
+        flex:1;
+        margin:0 10px;
+      }

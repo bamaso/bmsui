@@ -1,0 +1,14 @@
+build/
+node_modules/
+/src/*.vue
+/src/*.js
+/src/*.html
+/src/assets/
+/src/components/demos/*.vue
+circle.yml
+bower.json
+/assets/
+config/
+static/
+docks/
+src_docs/

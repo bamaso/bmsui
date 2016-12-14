@@ -1,0 +1,18 @@
+.bms-emoji{
+  overflow:hidden;
+  position:absolute;
+  left:0;
+  right:0;
+  background:#eee;
+}
+.show-emoji{
+  position:relative;
+  width:100%;
+  height: 24px;
+  background-image: url(https://res.wx.qq.com/mpres/htmledition/images/icon/emotion/default218877.gif);
+  background-repeat:no-repeat;
+}
+.bms-emoji-box .ui-font{
+  color:#aaa;
+  font-size:22px;
+}

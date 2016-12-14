@@ -1,0 +1,39 @@
+.number_cell{
+  width:100%;
+  height:30px;
+  line-height: 30px;
+}
+.number_cell_l{
+  float: left;
+  margin-left:10px;
+}
+.number_cell_r{
+  float:right;
+  margin-right:10px;
+  height:100%;
+  border:1px solid #dfdfdf;
+}
+.number_cell_r .number-selector{
+  float:left;
+  box-sizing:border-box;
+  padding:0 10px;
+  background-color: #fff;
+  height:100%;
+  font-weight: 600;
+}
+.number_cell_r .number-selector:first-child{
+  border-right: 1px solid #dfdfdf;
+}
+.number_cell_r .number-selector:last-child{
+  border-left: 1px solid #dfdfdf;
+}
+.number_cell_r .number-input{
+  box-sizing: border-box;
+  float:left;
+  height:100%;
+  border:none;
+  text-align: center;
+}
+.number_cell_r .number-selector.bms-number-disabled{
+  color:#ddd !important;
+}

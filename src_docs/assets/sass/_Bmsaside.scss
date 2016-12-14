@@ -1,0 +1,38 @@
+.bmsui-aside{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  background-color:#fff;
+  width:290px;
+  z-index: 1002;
+  border-right: 1px solid #dfdfdf;
+  overflow-y:scroll;
+}
+.bmsui-aside::-webkit-scrollbar {
+    display: none!important;
+    width: 0!important;
+    height: 0!important;
+    -webkit-appearance: none;
+    opacity: 0!important;
+}
+.bmsui-aside>header{
+  font-size:25px;
+  background-color:#fff;
+  color:#03ccbb;
+  font-weight: 600;
+  height:50px;
+  line-height: 49px;
+  padding-left: 17px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.bmsui-aside ul{
+
+}
+.bmsui-aside li{
+  height:45px;
+  line-height: 44px;
+  margin:0 20px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}

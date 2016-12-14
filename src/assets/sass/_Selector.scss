@@ -1,0 +1,39 @@
+.selector_cell{
+  padding:0 10px;
+  height:44px;
+  line-height: 42px;
+  border-top:1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  background:#fff;
+}
+.selector_title{
+  float:left;
+}
+.selector_main{
+  width: 100%;
+  height:100%;
+  padding-left: 50%;
+  position: relative;
+}
+.selector_main select{
+  padding-right: 16px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  appearance:none;
+  -webkit-appearance: none;
+  -moz-appearance:none;
+  -o-appearance: none;
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+  outline: none;
+}
+.selector_main .ui-font{
+  position: absolute;
+  right:0;
+  top:0;
+  color:#c8c8cd;
+}
